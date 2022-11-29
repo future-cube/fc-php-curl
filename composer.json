@@ -1,0 +1,21 @@
+{
+  "name": "future-cube/fc-php-curl",
+  "description": "future cube customization php curl",
+  "type": "library",
+  "license": "CC0",
+  "authors": [
+    {
+      "name": "Xing Gu",
+      "email": "xingkoo@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FutureCube\\FcPhpCurl\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*"
+  }
+}
